@@ -402,7 +402,7 @@
   z-index: 1;
 }
 
-.about__paragraph {
+.about__paragraph:last-shield {
   margin: 0;
   margin-bottom: 0;
 }
@@ -422,7 +422,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 80px 102px 60px 60px;
+  padding: 60px 102px 80px 60px;
 }
 
 .footer__columns {
@@ -450,10 +450,6 @@
 
 .footer__list-item {
   margin-bottom: 16px;
-}
-
-.footer__list-icon:last-of-type {
-  margin-bottom: 0;
 }
 
 .footer__column-heading {
