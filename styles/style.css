@@ -400,9 +400,10 @@
   font-weight: 400;
   max-width: 660px;
   z-index: 1;
+  gap: 32px;
 }
 
-.about__paragraph:last-shield {
+.about__paragraph:last-child {
   margin: 0;
   margin-bottom: 0;
 }
@@ -422,7 +423,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 60px 102px 80px 60px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
