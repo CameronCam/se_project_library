@@ -400,6 +400,7 @@
   font-weight: 400;
   max-width: 660px;
   z-index: 1;
+  flex-direction: column;
   gap: 32px;
 }
 
@@ -449,8 +450,8 @@
   margin: 0;
 }
 
-.footer__list-item {
-  margin-bottom: 16px;
+.footer__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__column-heading {
